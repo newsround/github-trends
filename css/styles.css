@@ -43,6 +43,12 @@ nav a:hover {
   border-radius: 20px;
 }
 
+@media screen and (max-width: 1179px) {
+  .col {
+    width: 100%;
+  }
+}
+
 main {
   padding: 30px;
   height: 700px;
@@ -94,6 +100,7 @@ article h2 {
 article a {
   text-decoration: none;
   color: #444;
+  word-wrap: break-word;
 }
 
 .news-attr {
