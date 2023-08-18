@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://newsround.eu.org/github-trends/sitemap.xml
