@@ -41,6 +41,7 @@ nav a:hover {
   width: 28%;
   border: 1px solid #dfdddd;
   border-radius: 20px;
+  margin: 10px;
 }
 
 @media screen and (max-width: 1179px) {
@@ -50,7 +51,7 @@ nav a:hover {
 }
 
 main {
-  padding: 30px;
+  padding: 0 25px 0 25px;
   height: 700px;
   overflow-y: auto;
 }
@@ -71,8 +72,11 @@ main::-webkit-scrollbar-thumb {
 
 .category-title {
   font-size: 20px;
-  color: #333;
+  color: #fff;
   font-weight: bold;
+  padding: 10px;
+  background-color: #333;
+  border-radius: 5px 5px 0 0;
 }
 
 article {
