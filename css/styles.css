@@ -50,6 +50,13 @@ nav a:hover {
   }
 }
 
+@media screen and (max-width: 500px) {
+  .col {
+    width: 90%;
+    margin: 10px auto;
+  }
+}
+
 main {
   padding: 0 25px 0 25px;
   height: 700px;
